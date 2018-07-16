@@ -12,12 +12,13 @@ Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 Buildrequires: python
+%{?el7:BuildRequires: python-setuptools}
 BuildArch: noarch
 Vendor: ECMWF <software.support@ecmwf.int>
 Url: https://software.ecmwf.int/stash/projects/PRDEL/repos/ecmwf-api-client/browse
 
 %description
-UNKNOWN
+Python client for ECMWF web api for accessing public datasets.
 
 %prep
 %setup -c %{name}-%{version}
@@ -26,7 +27,7 @@ UNKNOWN
 python setup.py build
 
 %install
-python setup.py install --single-version-externally-managed -O1 --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES
+python2 setup.py install --single-version-externally-managed -O1 --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES
 
 %clean
 echo rm -rf $RPM_BUILD_ROOT
