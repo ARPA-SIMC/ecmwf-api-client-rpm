@@ -11,8 +11,15 @@ License: UNKNOWN
 Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
+
+%if 0%{?rhel} == 7
 Buildrequires: python
-%{?el7:BuildRequires: python-setuptools}
+BuildRequires: python-setuptools
+%else
+Buildrequires: python2
+BuildRequires: python2-setuptools
+%endif
+
 BuildArch: noarch
 Vendor: ECMWF <software.support@ecmwf.int>
 Url: https://software.ecmwf.int/stash/projects/PRDEL/repos/ecmwf-api-client/browse
