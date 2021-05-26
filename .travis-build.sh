@@ -42,9 +42,6 @@ then
     cp ecmwf-api-client.spec ~/rpmbuild/SPECS/
     spectool -g -R ~/rpmbuild/SPECS/ecmwf-api-client.spec
     rpmbuild -ba ~/rpmbuild/SPECS/ecmwf-api-client.spec
-    find ~/rpmbuild/{RPMS,SRPMS}/ -name "${pkgname}*rpm" -exec cp -v {} . \;
-    # TODO upload ${pkgname}*.rpm to github release on deploy stage
-    ls -l *rpm
 else
     echo "Unsupported image"
     exit 1
