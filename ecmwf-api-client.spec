@@ -31,7 +31,7 @@ Python client for ECMWF web api for accessing public datasets.
 %setup -c %{name}-%{version}
 
 %build
-python setup.py build
+python2 setup.py build
 
 %install
 python2 setup.py install --single-version-externally-managed -O1 --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES
