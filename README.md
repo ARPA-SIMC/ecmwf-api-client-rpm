@@ -13,7 +13,7 @@ This github repository neither hosts nor provide ecmwf-api-client
 sources, it's meant to host (unofficial) convenience files for Fedora
 and CentOs rpm packaging.
 
-https://confluence.ecmwf.int/display/WEBAPI/Web-API+Downloads
+https://confluence.ecmwf.int/display/WEBAPI/Web+API+Downloads
 
 ## License
 
