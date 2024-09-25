@@ -1,9 +1,6 @@
-[![Build Status](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/centos7.png)](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/)
-[![Build Status](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/rocky8.png)](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/)
-[![Build Status](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/rocky9.png)](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/)
-[![Build Status](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/fedora36.png)](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/)
-[![Build Status](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/fedora38.png)](https://simc.arpae.it/moncic-ci/ecmwf-api-client-rpm/)
-[![Build Status](https://copr.fedorainfracloud.org/coprs/simc/stable/package/ecmwf-api-client/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/simc/stable/package/ecmwf-api-client/)
+**Note**: this repository is deprecated.
+
+This github repository was used for packaging ecmwf-api-client for Fedora/Epel
 
 # rpm packaging files for ecmwf-api-client
 
